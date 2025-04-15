@@ -13,7 +13,14 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND="app-crypt/mhash dev-libs/libmcrypt media-libs/libjpeg-turbo sys-libs/zlib dev-build/make sys-devel/gcc dev-build/cmake dev-vcs/git"
+DEPEND="app-crypt/mhash 
+		dev-libs/libmcrypt 
+		media-libs/libjpeg-turbo 
+		sys-libs/zlib 
+		dev-build/make 
+		sys-devel/gcc 
+		dev-build/cmake 
+		dev-vcs/git"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
